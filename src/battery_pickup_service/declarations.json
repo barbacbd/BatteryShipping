@@ -1,0 +1,105 @@
+{
+    "qualities" : [
+        {
+            "max_percent": 25.0,
+            "multiplier": 0.3,
+            "description": "very low"
+        },
+        {
+            "max_percent": 50.0,
+            "multiplier": 0.75,
+            "description": "low"
+        },
+        {
+            "max_percent": 75.0,
+            "multiplier": 1.0,
+            "description": "average"
+        },
+        {
+            "max_percent": 100.0,
+            "multiplier": 1.5,
+            "description": "high"
+        }
+    ],
+    "package_types": {
+        "soft": 1.00,
+        "hard": 20.00
+    },
+    "battery_packaging": {
+        "Lithium": "soft",
+        "Alkaline": "soft",
+        "Carbon Zinc": "soft",
+        "Silver Oxide": "soft",
+        "Zinc Air": "soft",
+        "Lithium Ion": "hard",
+        "NiCd": "hard",
+        "NiMH": "hard"
+    },
+    "battery_base_value": {
+        "Lithium": 4.00,
+        "Alkaline": 5.00,
+        "Carbon Zinc": 10.00,
+        "Silver Oxide": 3.45,
+        "Zinc Air": 1.25,
+        "Lithium Ion": 150.00,
+        "NiCd": 140.00,
+        "NiMH": 130.00
+    },
+    "distance": [
+        {
+            "min_distance": 0,
+            "multiplier": 0.04,
+            "description": "short"
+        },
+        {
+            "min_distance": 100,
+            "multiplier": 0.02,
+            "description": "medium"
+        },
+        {
+            "min_distance": 500,
+            "multiplier": 0.01,
+            "description": "long"
+        }
+    ],
+    "weights": [
+        {
+            "max_weight": 10,
+            "multiplier": 1.00
+        },
+        {
+            "max_weight": 20,
+            "multiplier": 1.50
+        },
+        {
+            "max_weight": 35,
+            "multiplier": 2.0
+        },
+        {
+            "max_weight": 55,
+            "multiplier": 2.50
+        },
+        {
+            "max_weight": 5000000000,
+            "multiplier": 5.00
+        }
+    ],
+    "bonus": [
+        {
+            "min_packages": 5,
+            "percent": 5.0
+        },
+        {
+            "min_packages": 10,
+            "percent": 10.0
+        },
+        {
+            "min_packages": 15,
+            "percent": 20.0
+        },
+        {
+            "min_packages": 25,
+            "percent": 30.0
+        }
+    ]
+}

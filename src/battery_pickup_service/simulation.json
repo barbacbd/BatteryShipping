@@ -1,0 +1,147 @@
+{
+    "orders":[
+        {
+            "order_id": 1,
+            "distance": 234.87,
+            "location": {
+                "state": "Virginia",
+                "city": "Virginia Beach",
+                "street_address": "123 Example Street",
+                "zip_code": "12345"
+            },
+            "date": {
+                "day": 1,
+                "month": 8,
+                "year": 2023
+            },
+            "packages": [
+                {
+                    "battery_type": "Lithium Ion",
+                    "battery_weight": 16.5,
+                    "quality": 43.0,
+                    "return_reason": "DAMAGED"
+                }
+            ]
+        },
+
+        {
+            "order_id": 2,
+            "distance": 234.87,
+            "location": {
+                "state": "Virginia",
+                "city": "Virginia Beach",
+                "street_address": "123 Example Street",
+                "zip_code": "12345"
+            },
+            "date": {
+                "day": 20,
+                "month": 9,
+                "year": 2023
+            },
+            "packages": [
+                {
+                    "battery_type": "Lithium Ion",
+                    "battery_weight": 16.5,
+                    "quality": 22.0,
+                    "return_reason": "DEFECTIVE"
+                }
+            ]
+        },
+
+        {
+            "order_id": 3,
+            "distance": 87.7,
+            "location": {
+                "state": "Virginia",
+                "city": "Chesapeake",
+                "street_address": "234 Other Street",
+                "zip_code": "98765"
+            },
+            "date": {
+                "day": 3,
+                "month": 10,
+                "year": 2023
+            },
+            "packages": [
+                {
+                    "battery_type": "NiCd",
+                    "battery_weight": 23.4,
+                    "quality": 55.0,
+                    "return_reason": "EOL"
+                },
+                {
+                    "battery_type": "Alkaline",
+                    "battery_weight": 12.0,
+                    "quality": 78.0,
+                    "return_reason": "EOL"
+                },
+                {
+                    "battery_type": "Alkaline",
+                    "battery_weight": 7.0,
+                    "quality": 98.0,
+                    "return_reason": "EOL"
+                },
+                {
+                    "battery_type": "Lithium Ion",
+                    "battery_weight": 9.0,
+                    "quality": 15.9,
+                    "return_reason": "DEFECTIVE"
+                }
+            ]
+        },
+
+        {
+            "order_id": 4,
+            "distance": 670.1,
+            "location": {
+                "state": "Virginia",
+                "city": "Portsmouth",
+                "street_address": "7171 Elm Street",
+                "zip_code": "45678"
+            },
+            "date": {
+                "day": 18,
+                "month": 11,
+                "year": 2023
+            },
+            "packages": [
+                {
+                    "battery_type": "NiCd",
+                    "battery_weight": 15.4,
+                    "quality": 12.0,
+                    "return_reason": "DAMAGED"
+                },
+                {
+                    "battery_type": "Alkaline",
+                    "battery_weight": 12.0,
+                    "quality": 78.0,
+                    "return_reason": "EOL"
+                },
+                {
+                    "battery_type": "Alkaline",
+                    "battery_weight": 7.0,
+                    "quality": 98.0,
+                    "return_reason": "EOL"
+                },
+                {
+                    "battery_type": "Lithium Ion",
+                    "battery_weight": 9.0,
+                    "quality": 15.9,
+                    "return_reason": "DEFECTIVE"
+                },
+                {
+                    "battery_type": "Lithium Ion",
+                    "battery_weight": 6.4,
+                    "quality": 89.9,
+                    "return_reason": "EOL"
+                },
+                {
+                    "battery_type": "NiMH",
+                    "battery_weight": 10.4,
+                    "quality": 12.9,
+                    "return_reason": "DAMAGED"
+                }
+            ]
+        }
+    ]
+}

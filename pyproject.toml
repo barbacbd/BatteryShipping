@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "battery_pickup_service"
+authors = [
+        {name = "Brent Barbachem", email = "barbacbd@gmail.com"},
+]
+description = "Test application to provide pickup information for battery services."
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = [
+    "python",
+    "python3",
+    "batteries",
+    "battery",
+    "shipping",
+]
+classifiers = [
+    "License :: Freeware",
+    "Natural Language :: English",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Langauge :: Python :: 3.11",
+    "Topic :: Software Development"
+]
+dependencies = [
+    "Flask",
+    "requests",
+    "pandas",
+    "xlsxwriter",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+]
+
+# since this is a flask app this gets a little hairy
+#[project.scripts]
+#BatteryPickupService = "battery_pickup_service.app:main"
+
+[tool.setuptools.package-data]
+'battery_pickup_service' = ['*.json']
